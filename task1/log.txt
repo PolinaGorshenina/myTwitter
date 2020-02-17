@@ -1,0 +1,5 @@
+commit 451d73db1b4684398bb442364f04758214186b38 (HEAD -> master)
+Author: Polina Gorshenina <polina.gorshenina02@gmail.com>
+Date:   Sun Feb 16 22:08:28 2020 +0300
+
+    add .gitignore
