@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel = "stylesheet" type = "text/css" href = "styles.css">
+    <script src="script.js"></script>
+    <title>myTwitter</title>
+</head>
+<body>
+
+<header class = "header">
+    <img class = "forPictureLeft" src="photos/Drawing1.png" alt="myTwitter" >
+    <img class = "forPictureRight" src="photos/Cat.png" alt="Username photo" >
+    <div class = "textInHeader"> Betty </div>
+    <button class = "buttonInHeaderRight">Log out</button>
+    <button class = "buttonInHeaderForPost"><img class="pictureForButton" src="photos/ButtonForPost.png" alt="New Post" ></button>
+</header>
+<div class="inlineBoxes">
+    <div class="inlineBoxes1">
+        <div class="textInFilters">Filters</div>
+        <div class="textInFilters1">Username: </div>
+        <input class="textInFilters2" type="text" placeholder="Username">
+        <div class="textInFilters1">Tags: </div>
+        <input class="textInFilters2" type="text" placeholder="Tags">
+        <div class="textInFilters1">Date: </div>
+        <div class="textInFilters3">From: </div>
+        <input class="textInFilters2" type="date" value="2000-01-01">
+        <div class="textInFilters3">To: </div>
+        <input class="textInFilters2" type="date" value="2020-06-30">
+        <button class="buttonInFilters">Filter</button>
+    </div>
+
+
+    <div class="inlineBoxes2">
+        <div class="auto">
+
+            <button class="buttonInPostLine"><img class="photoUserToPost" src="photos/ButtonForPost.png" alt="Click here">Write new post</button>
+            <div id="container"></div>
+            <template id="template">
+
+            <div class="post"><span><img class= "photoForLine" src="photos/Cat.png" alt="Photo"></span>
+
+                <span class="name" data-target="author"> </span>
+                <span class="date" data-target="createdAt"></span>
+                <div class="textOfPost" data-target="description"></div>
+                <div class ="tags" data-target="hashTags"></div>
+                <span><img class="photoToPost" src="photos/Rain.jpg" alt="photo"></span>
+
+                    <button class="buttonWidgets1"><img class="photoWidgets" src="photos/Delete.png" alt="Delete post"> </button>
+                    <button class="buttonWidgets2"><img class="photoWidgets" src="photos/Edit.png" alt="Edit post"></button>
+                    <button class="buttonWidgets3"><img class="photoWidgets" src="photos/Heart.png" alt="Like"></button>
+               </span>
+            </div>
+
+            </template>
+
+            <button class="buttonLoadMore">Load more</button>
+
+        </div>
+    </div>
+
+</div>
+
+<footer class="footer">
+    <img class = "pictureInFooter" src="photos/Drawing1.png" alt="myTwitter" >
+    <div class="textInFooter1"> by Polina Gorshenina, 2 course 6 group polina.gorshenina02@gmail.com
+        <br>May, 2020 </br></div>
+</footer>
+
+</body>
+</html>
